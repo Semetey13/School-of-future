@@ -1,0 +1,76 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    margin-top: 100px;
+    margin-left: 150px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    padding-left: 50px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav{
+    margin: 0;
+}
+.data0 {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.kartinka {
+    background-image: url("boy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1050px;
+}
+
+ .data1 , .data2 { 
+   margin-top: 180px;
+   margin-left: 40px;
+}
+
+.data1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.data2{
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.btn1 {
+    font-size: 20px;
+    padding: 19px 43px 21px 45px;
+    background-color: #FAE01A ;
+    border-radius: 30px;
+    border-color: #FAE01A;
+    font-weight: bold;
+    transition: 1s;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.btn1:hover {
+    background-color: #FAE01A;
+    transform: scale(1.1); 
+    box-shadow: 4px 4px 4px;
+}
